@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jquery-3.1.1" level="application" />
+    <orderEntry type="library" name="highmaps" level="application" />
+    <orderEntry type="library" name="jquery-ui" level="application" />
+    <orderEntry type="library" name="jquery.combobox" level="application" />
+    <orderEntry type="library" name="d3.v4" level="application" />
+    <orderEntry type="library" name="d3-scale-chromatic.v1" level="application" />
+    <orderEntry type="library" name="d3-geo-projection.v2" level="application" />
+    <orderEntry type="library" name="d3" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+  </component>
+</module>
