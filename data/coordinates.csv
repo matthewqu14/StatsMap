@@ -1,8 +1,0 @@
-lat1,long1,lat2,long2,place1,place2,is_us
-45.018280,-93.473892,42.365250,-71.105011,Minnesota,Massachusetts,true
-58.305801,-134.433304,45.018280,-93.473892,Alaska,Minnesota,true
-21.315603,-157.858093,45.018280,-93.473892,Hawaii,Minnesota,true
-44.977753,-93.265015,29.760427,-95.369804,Minnesota,Texas,true
-0,0,29.760427,-95.369804,None,Texas,false
-44.310623,-69.779488,36.162663,-86.781601,Maine,Tennessee,true
-38.533987,-121.755950,34.052235,-118.243683,California,California,true

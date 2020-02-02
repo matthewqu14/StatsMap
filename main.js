@@ -4,9 +4,12 @@ var svg = d3.select("svg"),
     height = +svg.attr("height");
 
 // Map and projection
+// World map use this
 var projection = d3.geoNaturalEarth1()
     .scale(800)
     .translate([1920,980]);
+
+// US map use another projection
 
 // A path generator
 var path = d3.geoPath()
@@ -16,21 +19,26 @@ var path = d3.geoPath()
 d3.queue()
     .defer(d3.json, "us_states.json")  // US shape
     //.defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")  // World shape
-    .defer(d3.csv, "data/coordinates.csv")
+    .defer(d3.csv, "data/centers.csv")
+    .defer(d3.json, "data/top10.json")
     .await(ready);
 
-function ready(error, dataGeo, data) {
+function ready(error, dataGeo, data, top10) {
 
-    // Reformat the list of link. Note that columns in csv file are called long1, long2, lat1, lat2
+    // Reformat the list of link.
     var link = [];
-    var filteredData = data.filter(function (row) {
-        return row.is_us === "true";
-    });
-    filteredData.forEach(function (row) {
-        source = [+row.long1, +row.lat1];
-        target = [+row.long2, +row.lat2];
-        topush = {type: "LineString", coordinates: [source, target], places: [row.place1, row.place2]};
-        link.push(topush);
+    i = 0;
+    data.forEach(function (row1) {
+        data.forEach(function (row2, index)
+        {
+            if (index > i) {
+                source = [+row1.long, +row1.lat];
+                target = [+row2.long, +row2.lat];
+                topush = {type: "LineString", coordinates: [source, target], places: [row1.state, row2.state]};
+                link.push(topush);
+            }
+        });
+        i++;
     });
 
     // Draw the map
@@ -45,7 +53,8 @@ function ready(error, dataGeo, data) {
         )
         .attr("class", "state")
         .attr("id", function (d) {
-            return d.properties.NAME;
+            // return d.properties.name; use for world map
+            return d.properties.NAME; // use for US map
         })
         .style("stroke", "#fff")
         .style("stroke-width", 0.3);
@@ -66,73 +75,32 @@ function ready(error, dataGeo, data) {
         .style("stroke", "#ffdbea")
         .style("stroke-width", 0);
 
-    // Add circles at coordinates
-    var place1 = svg.append('g').attr('class','place1');
-    var place2 = svg.append('g').attr('class','place2');
-    place1.selectAll("circle")
-        .data(link)
-        .enter()
-        .append("circle")
-        .attr("cx", function(d) {
-            return projection(d.coordinates[0])[0];
-        })
-        .attr("cy", function(d) {
-            return projection(d.coordinates[0])[1];
-        })
-        .attr("class", function (d) {
-            return "circle " + d.places[0] + " " + d.places[1];
-        })
-        .attr("r", 0)
-        .attr("fill","none")
-        .attr("stroke", "black");
-
-    place2.selectAll("circle")
-        .data(link)
-        .enter()
-        .append("circle")
-        .attr("cx", function(d) {
-            return projection(d.coordinates[1])[0];
-        })
-        .attr("cy", function(d) {
-            return projection(d.coordinates[1])[1];
-        })
-        .attr("class", function (d) {
-            return "circle " + d.places[0] + " " + d.places[1];
-        })
-        .attr("r", 0)
-        .attr("fill", "none")
-        .attr("stroke", "black");
-
     var paths = document.getElementsByClassName("line");
-    var circles = document.getElementsByClassName("circle");
+    top10array = [];
+    percentarray = [];
 
     $(document).ready(function () {
-            $('.state').hover(
-                function () {
-                    for (i = 0; i < paths.length; i++) {
-                        if (paths[i].classList.contains(this.id.toString())) {
-                            paths[i].style.strokeWidth = 2.25;
-                        }
-                    }
-                    for (i = 0; i < circles.length; i++) {
-                        if (circles[i].classList.contains(this.id.toString())) {
-                            circles[i].style.r = 2;
-                        }
-                    }
-                },
-                function () {
-                    for (i = 0; i < paths.length; i++) {
-                        if (paths[i].classList.contains(this.id.toString())) {
-                            paths[i].style.strokeWidth = 0;
-                        }
-                    }
-                    for (i = 0; i < circles.length; i++) {
-                        if (circles[i].classList.contains(this.id.toString())) {
-                            circles[i].style.r = 0;
-                        }
+        $('.state').hover(function () {
+            statename = this.id.toString();
+            top10.forEach(function (row) {
+                if (statename === row.state) {
+                    top10array = row.top10;
+                    percentarray = row.percent;
+                    console.log(top10array);
+                }
+            });
+            for (i = 0; i < paths.length; i++) {
+                for (j = 0; j < 10; j++) {
+                    if (paths[i].classList.contains(top10array[j]) && paths[i].classList.contains(statename) && top10array[j] !== statename) {
+                        paths[i].style.strokeWidth = percentarray[j]/2.0; //add some scale to make min and max line widths good
                     }
                 }
-            )
-        }
-    )
+            }
+        },
+        function () {
+            for (i = 0; i < paths.length; i++) {
+                paths[i].style.strokeWidth = 0;
+            }
+        });
+    })
 }
