@@ -2,262 +2,314 @@
     {
         "state": "Alabama",
         "top10": ["New_York", "Minnesota", "California", "Hawaii", "Alaska", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Alaska",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Arizona",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Arkansas",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "California",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Colorado",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Connecticut",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Delaware",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "District_of_Colombia",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Florida",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Georgia",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Hawaii",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Idaho",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Illnois",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Indiana",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Iowa",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Kansas",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Kentucky",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Louisiana",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Maine",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Maryland",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Massachusetts",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Michigan",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Minnesota",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Mississippi",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Missouri",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Montana",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Nebraska",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Nevada",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "New_Hampshire",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "New_Jersey",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "New_Mexico",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "New_York",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "North_Carolina",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "North_Dakota",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Ohio",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Oklahoma",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Oregon",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Pennsylvania",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Puerto_Rico",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Rhode_Island",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "South_Carolina",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "South_Dakota",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Tennessee",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Texas",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Utah",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Vermont",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Virginia",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Washington",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "West_Virginia",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Wisconsin",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     },
     {
         "state": "Wyoming",
         "top10": ["New_York", "Minnesota", "California", "Alaska", "Hawaii", "Texas", "Massachusetts", "Puerto_Rico", "Kansas", "Montana"],
-        "percent": [10,9,8,7,6,5,4,3,2,1]
+        "percent": [10,9,8,7,6,5,4,3,2,1],
+        "nummatches": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
     }
 ]
 

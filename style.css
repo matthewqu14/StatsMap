@@ -14,7 +14,3 @@ path:hover {
     fill: #e34663 !important;
     cursor: pointer;
 }
-
-circle {
-     background-image: url("heart.png");
- }
